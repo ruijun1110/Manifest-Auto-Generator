@@ -1,0 +1,32 @@
+{
+    "Headers Matching": {
+        "Bill Number": "MasterAWBIndicator",
+        "weight": "Weight",
+        "description": "Description",
+        "recipient_name": "ConsigneeName",
+        "recipient_address1": "ConsigneeStreetAddress",
+        "recipient_city": "ConsigneeCity",
+        "recipient_state": "ConsigneeStateOrProvince",
+        "recipient_zip5": "ConsigneePostalCode",
+        "recipient_phone": "ConsigneeTelephone",
+        "value": "CustomsValue",
+        "Harmonization_code": "HTSNumber"
+    },
+    "Default Values": {
+        "SiteID": 8486,
+        "ArrivalAirport": "DFW",
+        "WaybillOriginator": "SDK7",
+        "OriginAirport": "HKG",
+        "Pieces": 1,
+        "WeightCode": "K",
+        "ShipperName": "SHENZHEN BYEE TECHNOLOGY CO LTD",
+        "ShipperStreetAddress": "401, Building 3, Baole 2n",
+        "ShipperCity": "Shenzhen",
+        "ShipperStateOrProvince": "Guang Dong",
+        "ShipperPostalCode": "518000",
+        "ShipperCountry": "China",
+        "ShipperTelephone": "75528918827",
+        "ConsigneeCountry": "US",
+        "CurrencyCode": "USD"
+    }
+}

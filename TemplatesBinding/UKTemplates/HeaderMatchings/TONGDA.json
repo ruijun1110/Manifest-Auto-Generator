@@ -1,0 +1,28 @@
+{
+    "Headers Matching": {
+        "Tracking Number": "TRACKING  NO.",
+        "Shipper Name": "SENDER NAME",
+        "Ship Add 1": "SENDER ADD1",
+        "Ship Add 2": "Ship Add 2",
+        "Ship City": "SENDER CITY",
+        "Ship State": "Ship State",
+        "Ship Zip": "SENDER POSTCODE",
+        "Ship Contry Code": "SENDER COUNTRY",
+        "Consignee": "RECEIPIENT NAME",
+        "Address1": "RECEIPIENT ADD1",
+        "City": "RECEIPIENT CITY",
+        "State": "RECEIPIENT COUNTY",
+        "Zip": "RECEIPIENT POSTCODE",
+        "Email": "RECEPIENT EMAIL",
+        "Phone": "PHONE NUMBER",
+        "Total Weight": "GROSS WEIGHT (KG)",
+        "Item Description": "ITEM DESCRIPTION1",
+        "Item Quantity": "ITEM QUANTITY",
+        "Item Value": "VALUE",
+        "Total Value": "TOTAL VALUE"
+    },
+    "Default Values": {
+        "CUSTOMER REF": 990492923,
+        "Currency": "GBP"
+    }
+}

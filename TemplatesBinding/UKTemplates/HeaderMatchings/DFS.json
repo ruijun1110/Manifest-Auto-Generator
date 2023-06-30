@@ -1,0 +1,34 @@
+{
+    "Headers Matching": {
+        "Tracking Number": "Tracking Number",
+        "Reference": "Reference",
+        "HAWB": "HAWB",
+        "Shipper Name": "Shipper Name",
+        "Ship Add 1": "Ship Add 1",
+        "Ship Add 2": "Ship Add 2",
+        "Ship City": "Ship City",
+        "Ship State": "Ship State",
+        "Ship Zip": "Ship Zip",
+        "Ship Contry Code": "Ship Contry Code",
+        "Consignee": "Consignee",
+        "Address1": "Address1",
+        "City": "City",
+        "State": "State",
+        "Zip": "Zip",
+        "Country Code": "Country Code",
+        "Phone": "Phone",
+        "Pieces": "Pieces",
+        "Total Weight": "Total Weight",
+        "Weight UOM": "Weight UOM",
+        "Total Value": "Total Value",
+        "Currency": "Currency",
+        "Incoterms": "Incoterms",
+        "Vendor": "Vendor",
+        "Item Description": "Item Description",
+        "Item Quantity": "Item Quantity",
+        "Item Value": "Item Value"
+    },
+    "Default Values":{
+        
+    }
+}

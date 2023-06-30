@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "导入";
+    var errorMessage = ViewData["ErrorMessage"] as string;
+    if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <script>
+            var encodedErrorMessage = @Html.Raw(Json.Serialize(errorMessage));
+            alert(encodedErrorMessage);
+        </script>
+    }
+}
+
+<div id="importFormDiv" class="form">
+    <form id="importForm" method="post" enctype="multipart/form-data" onsubmit="return validateFormField()" asp-controller="FileImport" asp-action="HandleFileUpload">
+        <div id="importFields" class="inputFields">
+            <div id="countryField">
+                <label for="selectedCountry">导入国家</label>
+                <select name="selectedCountry" id="selectedCountry">
+                    <option value="US">美国</option>
+                    <option value="UK">英国</option>
+                </select>
+            </div>
+            <div id="fileField">
+                <label for="fileName">文件名</label>
+                <input type="text" id="fileName" readonly>
+                <input type="file" name="selectedFile" id="selectedFile" onchange="handleFileSelect(event)">
+                <input type="button" class="btn btn-primary" value="上传"
+                    onclick="document.getElementById('selectedFile').click()">
+            </div>
+        </div>
+        <div class="inputFields">
+            <input type="submit" id="importSubmitButton" class="btn btn-primary functionButtons" value="确定">
+        </div>
+    </form>
+</div>

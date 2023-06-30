@@ -1,0 +1,17 @@
+{
+    "Headers Matching": {
+        "Tracking Number": "HAWB",
+        "Shipper Name": "SHIPPER",
+        "Ship Add 1": "ADDRESS",
+        "Consignee": "CNEE",
+        "Address1": "CNEE ADDRESS",
+        "Phone": "CNEE TEL",
+        "Item Description": "COMMODITY",
+        "Total Value": "VALUE (GBP)",
+        "Pieces": "PCS",
+        "Total Weight": "C / WT (Kg)"
+    },
+    "Default Values":{
+        
+    }
+}

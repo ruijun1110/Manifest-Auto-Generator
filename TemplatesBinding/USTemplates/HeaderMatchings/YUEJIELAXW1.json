@@ -1,0 +1,29 @@
+{
+    "Headers Matching": {
+        "weight": "Gross Weight Kgs",
+        "description": "Description",
+        "recipient_name": "Consignee Name",
+        "recipient_address1": "Consignee Street Address",
+        "recipient_city": "Consigne City",
+        "recipient_state": "Consignee state or Province",
+        "recipient_zip5": "Consignee Postal Code",
+        "value": "CustomsValue",
+        "Harmonization_code": "HTSNumber"
+    },
+    "Default Values": {
+        "Manifest Qty/Piece count": 1,
+        "Unit": "PKG",
+        "Country Of Origin (C/E)": "CN",
+        "Country of Export (C/E)": "CN",
+        "CurrencyCode": "USD",
+        "Origin Airport": "HKG",
+        "PORT OF ENTRY": 2720,
+        "STATE OF DESTINATION": "CA",
+        "Seller Name": "SHENZHEN BYEE TECHNOLOGY CO LTD",
+        "Seller Street Address": "401, Building 3, Baole 2n",
+        "Seller City": "shenzhenCity",
+        "Seller State Or Province": "guangdong",
+        "Seller Postal Code": 518000,
+        "Seller Country": "CN"
+    }
+}

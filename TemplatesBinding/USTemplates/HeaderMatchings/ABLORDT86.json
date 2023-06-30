@@ -1,0 +1,29 @@
+{
+    "Headers Matching": {
+        "Bill Number": "MAWB",
+        "description": "Description",
+        "Harmonization_code": "HTSCode",
+        "weight": "Weight",
+        "value": "DeclareValue",
+        "recipient_name": "ConsigneeName",
+        "recipient_address1": "ConsigneeAddress",
+        "recipient_city": "ConsigneeCity",
+        "recipient_state": "ConsigneeState",
+        "recipient_zip5": "ConsigneePostalCode",
+        "recipient_country": "ConsigneeCountry",
+        "consignor_item_id": "CustomerRefNo",
+        "receptacle_id": "ContainerNo"
+    },
+    "Default Values": {
+        "OrigAirport": "HKG",
+        "DestAirport": "ORD",
+        "WeightUnit": "K",
+        "Quantity": 1,
+        "ShipperName": "SHENZHEN BYEE TECHNOLOGY CO LTD",
+        "ShipperAddress": "401, Building 3, Baole 2n",
+        "ShipperCity": "Shenzhen",
+        "ShipperState": "guangdong",
+        "ShipperPostalCode": 518000,
+        "ShipperCountry": "CN"
+    }
+}

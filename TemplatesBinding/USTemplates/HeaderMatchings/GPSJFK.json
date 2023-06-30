@@ -1,0 +1,27 @@
+{
+    "Headers Matching": {
+        "recipient_name": "CNEE Name",
+        "recipient_address1": "CNEE Address",
+        "recipient_city": "City",
+        "recipient_state": "Province",
+        "recipient_zip5": "Postal Code",
+        "recipient_country": "Country",
+        "description": "Description (English)",
+        "sender_country": "Country Of Origin",
+        "pieces": "Cargo piece",
+        "weight": "Cargo Weight (KG)",
+        "value": "Value",
+        "consignor_item_id": "Tracking #",
+        "receptacle_id": "BOX Number",
+        "Harmonization_code": "HS Code"
+    },
+    "Default Values": {
+        "Record Type": "D1",
+        "Shipper Name": "SHENZHEN BYEE TECHNOLOGY CO LTD",
+        "Shipper Address": "401, Building 3, Baole 2n",
+        "Shipper City": "SHENZHEN",
+        "Shipper Province": "GUANGDONG",
+        "Shipper Postal code": 518000,
+        "Shipper Country": "CN"
+    }
+}

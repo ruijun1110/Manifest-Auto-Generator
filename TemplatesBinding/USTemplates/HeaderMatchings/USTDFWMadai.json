@@ -1,0 +1,8 @@
+{
+    "Headers Matching": {
+        "Bill Number": "总单号",
+        "consignor_item_id": "分单号",
+        "receptacle_id": "麻袋号码"
+    },
+    "Default Values": {}
+}

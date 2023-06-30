@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "导出";
+    var exportTemplateNames = ViewData["ExportTemplateNames"] as List<string>;
+    if (ViewData["ErrorMessage"] != null){
+        <script>
+            alert("以下提单号不存在： @ViewData["ErrorMessage"]，导出失败。");
+        </script>
+    }
+}
+
+<div id="exportFormDiv" class="form">
+    <form id="exportForm" method="post" enctype="multipart/form-data" asp-controller="FileExport" asp-action="HandleFileDownload">
+        <div id="exportFields" class="inputFields">
+            <div id="billNumberField">
+                <label for="exportBillNumbers">提单号</label>
+                <input type="text" name="exportBillNumbers" id="exportBillNumbers" required>
+            </div>
+            <div id="exportTemplateField">
+                <label for="exportTemplateName">导出模板</label>
+                <select name="exportTemplateName" id="exportTemplateName">
+                    @foreach (var templateName in exportTemplateNames)
+                    {
+                        <option value="@templateName">@templateName</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div>
+            <input id="submitButton" class="btn btn-primary functionButtons" type="submit" value="确定">
+            <a class="btn btn-secondary functionButtons" id="returnButton" href="@Url.Action("Import","FileImport")">返回</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,25 @@
+{
+    "Headers Matching": {
+        "weight": "Weight",
+        "value": "Value",
+        "description": "Description",
+        "recipient_name": "Consignee Name",
+        "recipient_address1": "Consignee Address_1",
+        "recipient_city": "Consignee City",
+        "recipient_state": "Consignee State",
+        "recipient_zip5": "Consignee Postal Code",
+        "Harmonization_code": "HTSNUMBER"
+    },
+    "Default Values": {
+        "Number Pieces": 1,
+        "Consignee Country Code": "US",
+        "Consignee Country Name": "United States",
+        "Shipper Name": "SHENZHEN BYEE TECHNOLOGY CO LTD",
+        "Shipper Address_1": "401, Building 3, Baole 2n",
+        "Shipper City": "Shenzhen",
+        "Shipper State": "guangdong",
+        "Shipper Zip": 518000,
+        "Shipper Country Code": "CN",
+        "Shipper Country Name": "CHINA"
+    }
+}

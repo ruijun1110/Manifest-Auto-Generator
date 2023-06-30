@@ -1,0 +1,32 @@
+{
+    "Headers Matching": {
+        "recipient_name": "Consignee Name",
+        "recipient_address1": "Consignee Street Address",
+        "recipient_city": "Consignee City",
+        "recipient_state": "Consignee State or Province",
+        "recipient_zip5": "Consignee Postal Code",
+        "weight": "Cargo Weight",
+        "description": "Cargo Description",
+        "Harmonization_code": "HTS Number 1",
+        "value": "Line Item Value 1"
+    },
+    "Default Values": {
+        "Waybill Type": "HOUSE",
+        "Airport Of Origin": "HKG",
+        "Shipper Name": "SHENZHEN BYEE TECHNOLOGY CO LTD",
+        "Shipper Street Address": "401, Building 3, Baole 2n",
+        "Shipper City": "SHENZHEN",
+        "Shipper Country": "CN",
+        "Consignee Country": "US",
+        "Cargo Piece Count": 1,
+        "Cargo Weight UOM": "K",
+        "FDA Indicator": "N",
+        "Include Type 86": "Y",
+        "Entry Type": 86,
+        "Mode of Transport": 40,
+        "Bond Type": 0,
+        "FIRMS": "EAN4",
+        "Port of Entry": 4701,
+        "Country of Origin 1": "CN"
+    }
+}

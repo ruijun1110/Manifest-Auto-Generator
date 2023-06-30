@@ -1,0 +1,36 @@
+{
+    "Headers Matching": {
+        "Bill Number": "mawb",
+        "consignor_item_id": "consignor_item_id",
+        "receptacle_id": "receptacle_id",
+        "sender_name": "sender_name",
+        "sender_address1": "sender_address1",
+        "sender_city": "sender_city",
+        "sender_state": "sender_state",
+        "sender_zip5": "sender_zip5",
+        "sender_phone": "sender_phone",
+        "recipient_name": "recipient_name",
+        "recipient_address1": "recipient_address1",
+        "recipient_city": "recipient_city",
+        "recipient_state": "recipient_state",
+        "recipient_zip5": "recipient_zip5",
+        "recipient_country": "recipient_country",
+        "recipient_phone": "recipient_phone",
+        "pieces": "pieces",
+        "weight": "weight",
+        "length": "length",
+        "width": "width",
+        "height": "height",
+        "value": "value",
+        "description": "description",
+        "country_of_origin": "country_of_origin",
+        "Harmonization_code": "harmonization_code",
+        "unit_value": "unit_value",
+        "quantity": "quantity",
+        "total_value": "total_value",
+        "total_weight": "total_weight"
+    },
+    "Default Values": {
+        "sender_country": "CN"
+    }
+}
